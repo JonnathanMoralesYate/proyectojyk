@@ -16,11 +16,11 @@
                 <h2>MINIMARKET VARIEDADES JYK</h2>
             </div>
             <div class="text-center mt-1">
-                <h3> Modulo Registrar Cliente</h3>
+                <h3> Modulo Informe Entrada Productos</h3>
             </div>
         </div>
         <div class="row mt-2">
-<!--Inicio Barra de Navegacion General-->
+<!--Inicio Barra General de Navegacion-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,36 +105,34 @@
             </div>
     </div>
 </nav>
-<!--Fin Barra de Navegacion General-->
+<!--Fin Barra de Navegacion Administrativo-->
         </div>
         <div class="row">
-            <!--Incio de Formulario Registro de Cliente-->
+            <!--Incio de formulario Informe Entrada Productos-->
             <div class="col-3">
             </div>
             <div class="col-6">
             <form class=" mt-2">
                 <div class=" mt-2">
-                    <label for="input1" class="form-label mt-3">No. Cedula:</label>
-                    <input type="number" class="form-control" id="input1" placeholder="">
+                    <label for="input1" class="form-label mt-3">Fecha Inicial:</label>
+                    <input type="date" class="form-control" id="input1" placeholder="">
                 </div>
                 <div class="mt-2">
-                    <label for="input1" class="form-label mt-3">Nombres:</label>
-                    <input type="text" class="form-control" id="input1" placeholder="">
+                    <label for="input1" class="form-label mt-3">Fecha Final:</label>
+                    <input type="date" class="form-control" id="input1" placeholder="">
                 </div>
-                <div class="mt-2">
-                    <label for="input1" class="form-label mt-3">Apellidos:</label>
-                    <input type="text" class="form-control" id="input1" placeholder="">
-                </div>
-                <div class=" mt-2">
-                    <label for="input1" class="form-label mt-3">No. Celular:</label>
-                    <input type="number" class="form-control" id="input1" placeholder="">
-                </div>
-                <div class="mt-2">
-                    <label for="input1" class="form-label mt-3">Email:</label>
-                    <input type="email" class="form-control" id="input1" placeholder="">
+                <div class="mt-4">
+                    <div class="text-center">
+                        <div class="">
+                            <label class="check-label" for="flexCheckDefault">Formato PDF</label>
+                        </div>
+                        <div class="">
+                            <input class="checkbox-inline" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </div>
                 </div>
                 <div class="text-center mt-2">
-                    <button type="submit" class="btn-outline-success mt-3 text-center">Registrar</button>
+                    <button type="submit" class="btn-outline-success mt-3">Generar</button>
                 </div>
                 
             </form>
