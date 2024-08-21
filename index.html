@@ -218,9 +218,9 @@
                         <li><button onclick="location.href='suero.html'" class="dropdown-item" type="button">sueros</button></li>
                         <li><button onclick="location.href='algodon.html'" class="dropdown-item" type="button">algodon</button></li>
                         <li><button onclick="location.href='alcohol.html'" class="dropdown-item" type="button">alcohol</button></li>
-                        <li><button onclick="location.href='pañales.html'" class="dropdown-item" type="button">pañales</button></li>
-                        <li><button onclick="location.href='copitos.html'" class="dropdown-item" type="button">copitos</button></li>
-                        <li><button onclick="location.href='vitaminas.html'" class="dropdown-item" type="button">Vitaminas</button></li>
+                        <li><button id="changeImgCatPañales" class="dropdown-item" type="button">pañales</button></li>
+                        <li><button onclick="location.href='html'" class="dropdown-item" type="button">copitos</button></li>
+                        <li><button id="changeImgCatVitaminas" class="dropdown-item" type="button">Vitaminas</button></li>
                     </ul>
                 </div>
             </div>
@@ -387,70 +387,70 @@
         <div class="col-9">
             <div class="card-group text-center">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="/img/atun.png" class="img-fluid mx-auto" alt="...">
-                    <h5 class="card-title">Atun</h5>
+                    <img id="cateGen1" src="/img/atun.png" class="img-fluid mx-auto" alt="cateGen1">
                         <div class="card-body">
-                            <p class="card-text">En Aceite</p>
+                            <h5 id="marcProduc1" class="card-title">Atun</h5>
+                            <p id="descriProduc1" class="card-text">En Aceite</p>
                         </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="/img/cervezas.png" class="img-fluid mx-auto" alt="...">
+                    <img id="cateGen2" src="/img/cervezas.png" class="img-fluid mx-auto" alt="cateGen2">
                     <div class="card-body">
-                        <h5 class="card-title">Cerveza</h5>
-                        <p class="card-text">Al por mayor y detal</p>
+                        <h5 id="marcProduc2" class="card-title">Cerveza</h5>
+                        <p id="descriProduc2" class="card-text">Al por mayor y detal</p>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="/img/Jamoneta.png" class="img-fluid mx-auto" alt="...">
+                    <img id="cateGen3" src="/img/Jamoneta.png" class="img-fluid mx-auto" alt="cateGen3">
                     <div class="card-body">
-                        <h5 class="card-title">Jamoneta</h5>
-                        <p class="card-text">Zenu</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group text-center">
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="/img/frutas.png" class="img-fluid mx-auto" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Frutas</h5>
-                        <p class="card-text">Frescas</p>
-                    </div>
-                </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="img/pollo.png" class="img-fluid mx-auto" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Pollo</h5>
-                        <p class="card-text">Fresco</p>
-                    </div>
-                </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="/img/atun1.png" class="img-fluid mx-auto" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Atun</h5>
-                        <p class="card-text">En Agua</p>
+                        <h5 id="marcProduc3" class="card-title">Jamoneta</h5>
+                        <p id="descriProduc3" class="card-text">Zenu</p>
                     </div>
                 </div>
             </div>
             <div class="card-group text-center">
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="img/frutas.png" class="img-fluid mx-auto" alt="...">
+                    <img id="cateGen4" src="/img/frutas.png" class="img-fluid mx-auto" alt="cateGen4">
                     <div class="card-body">
-                        <h5 class="card-title">Frutas</h5>
-                        <p class="card-text">Fresca</p>
-                </div>
-                </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img src="img/res.png" class="img-fluid mx-auto" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Res</h5>
-                        <p class="card-text">Pulpa</p>
+                        <h5 id="marcProduc4" class="card-title">Frutas</h5>
+                        <p id="descriProduc4" class="card-text">Frescas</p>
                     </div>
                 </div>
                 <div class="card mx-auto" style="width: 18rem;">
-                    <img src="img/srdinas.png" class="img-fluid mx-auto" alt="...">
+                    <img id="cateGen5" src="img/pollo.png" class="img-fluid mx-auto" alt="cateGen5">
                     <div class="card-body">
-                        <h5 class="card-title">Sardinas</h5>
-                        <p class="card-text">En salsa de tomate</p>
+                        <h5 id="marcProduc5" class="card-title">Pollo</h5>
+                        <p id="descriProduc5" class="card-text">Fresco</p>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img id="cateGen6" src="/img/atun1.png" class="img-fluid mx-auto" alt="cateGen6">
+                    <div class="card-body">
+                        <h5 id="marcProduc6" class="card-title">Atun</h5>
+                        <p id="descriProduc6" class="card-text">En Agua</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group text-center">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img id="cateGen7" src="img/frutas.png" class="img-fluid mx-auto" alt="cateGen7">
+                    <div class="card-body">
+                        <h5 id="marcProduc7" class="card-title">Frutas</h5>
+                        <p id="descriProduc7" class="card-text">Fresca</p>
+                </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img id="cateGen8" src="img/res.png" class="img-fluid mx-auto" alt="cateGen8">
+                    <div class="card-body">
+                        <h5 id="marcProduc8" class="card-title">Res</h5>
+                        <p id="descriProduc8" class="card-text">Pulpa</p>
+                    </div>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img id="cateGen9" src="img/srdinas.png" class="img-fluid mx-auto" alt="cateGen9">
+                    <div class="card-body">
+                        <h5 id="marcProduc9" class="card-title">Sardinas</h5>
+                        <p id="descriProduc9" class="card-text">En salsa de tomate</p>
                     </div>
                 </div>
             </div>
@@ -530,6 +530,8 @@
         <!--Fin de Pie de Pagina-->
     </div>
         <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/cambioImgBarraCateg.js"></script>
+
 </body>
 
 </html>
