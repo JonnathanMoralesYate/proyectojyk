@@ -75,12 +75,13 @@ body {
     }
 }
 #usuario::placeholder{
-    color: #ccc;
+    color: hsl(0, 0%, 100%);
 }
 #contraseña::placeholder{
-    color: #ccc;
+    color: rgb(255, 255, 255);
 }
 
 .campo label, .campo label {
-    color: #ccc;
+    color: hsl(0, 0%, 100%);
 }
+
