@@ -85,3 +85,8 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+/* barra de nav */
+.nav{
+
+    width: 100;
+}
