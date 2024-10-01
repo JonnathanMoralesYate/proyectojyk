@@ -23,20 +23,15 @@ document.addEventListener('DOMContentLoaded', function() {
 //Función para el botón cerrarL (X) : Cierra el formulario de inicio de sesión.
 
 document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById("cerrarL").addEventListener('click', function(){
 
-        //alert("pulso x");
+    document.getElementById("cerrarL").addEventListener('click', function(){
 
         let elemento = document.getElementById("login_form");
 
-       // elemento.style.display = "none";
-
-        elemento.remove();  // elimina el elemento si ya está visible
-
         location.reload();  //método de recarga la URL actual, como el botón Actualizar.
 
+        elemento.remove();  // elimina el elemento si ya está visible
+ 
     });
-
-    
 
 });
